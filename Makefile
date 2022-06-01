@@ -1,4 +1,4 @@
-SRCS		=	something.c image.c program.c \
+SRCS		=	something.c image.c program.c keys.c \
 
 LIBFT_SRCS	=	ft_printf.c ft_bzero.c get_next_line_utils_bonus.c get_next_line_bonus.c \
 			ft_calloc.c ft_itoa.c ft_memset.c ft_putchar.c ft_putex.c ft_putexup.c \

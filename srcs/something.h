@@ -1,6 +1,16 @@
 #ifndef SOMETHING_H
 #define SOMETHING_H
+#define ESC 53 // key "esc"
+#define ENTER 36 // key "enter"
+#define FOLLOW 3 // key "f"
+#define COLOR 8 // key "c"
+#define UP 126 // key "arrow up"
+#define DOWN 125 // key "arrow down"
+#define PENGUIN 35 // key "p"
+#define RAND_COLOR 15 // key "r"
+
 #include "ft_printf.h"
+#include <stdlib.h>
 
 typedef struct s_win
 {
@@ -45,5 +55,11 @@ void	draw_square(t_square square, t_img img);
 t_win	new_program(int w, int h, char *str);
 
 int	exit_program(t_win *window);
+
+//KEY FUNCTIONS
+
+int get_color();
+
+int read_keys(int key_pressed, void *param);
 
 #endif
