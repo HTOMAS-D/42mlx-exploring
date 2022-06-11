@@ -62,4 +62,5 @@ int get_color();
 
 int read_keys(int key_pressed, void *param);
 
+int read_mouse(int button, int mouse_x, int mouse_y, void *param);
 #endif
