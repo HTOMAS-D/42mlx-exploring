@@ -63,4 +63,11 @@ int get_color();
 int read_keys(int key_pressed, void *param);
 
 int read_mouse(int button, int mouse_x, int mouse_y, void *param);
+
+int continuous_read_keys(int key_pressed, void *param);
+
+int follow_mouse(int mouse_x, int mouse_y, void *param);
+
+void	penguin(t_img img);
+
 #endif
